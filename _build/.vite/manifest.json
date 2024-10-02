@@ -1,0 +1,76 @@
+{
+  "_solid-0w_aLCk-.js": {
+    "file": "assets/solid-0w_aLCk-.js",
+    "name": "solid"
+  },
+  "_web-MibZsF_P.js": {
+    "file": "assets/web-MibZsF_P.js",
+    "name": "web",
+    "imports": [
+      "_solid-0w_aLCk-.js"
+    ]
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-Dur5g48u.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-O7nZalfM.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-BV3CbEM2.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-DOQJEhcS.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-CWLtwiQE.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_solid-0w_aLCk-.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-BCYbrtT5.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-MibZsF_P.js",
+      "_solid-0w_aLCk-.js"
+    ],
+    "css": [
+      "assets/index-EULtLXaO.css"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-C8KPkmvw.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_web-MibZsF_P.js",
+      "_solid-0w_aLCk-.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-BbUhqrIf.css"
+    ],
+    "assets": [
+      "assets/fa-solid-900-DOQJEhcS.woff2",
+      "assets/fa-solid-900-BV3CbEM2.ttf",
+      "assets/fa-brands-400-O7nZalfM.woff2",
+      "assets/fa-brands-400-Dur5g48u.ttf"
+    ]
+  }
+}
